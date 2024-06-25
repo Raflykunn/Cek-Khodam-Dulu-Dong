@@ -47,6 +47,7 @@ const Home = () => {
             placeholder="Masukkan Nama Anda"
             className="border border-gray-300 rounded p-2 w-full mb-4"
             required
+            autoFocus
           />
           <div className="flex justify-center">
             {loading ? (
@@ -80,6 +81,9 @@ const Home = () => {
             Cek Khodam
           </button>
         </form>
+        <h1 className="text-xl text-slate-50 font-semibold mt-4">
+          &copy; Copyright:2024 | Create by Rafly❤️
+        </h1>
       </div>
     </div>
   );
